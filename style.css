@@ -1,0 +1,158 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+:root{
+    --wh: rgb(236, 236, 236);
+    --ye: rgb(255, 237, 0);
+}
+
+.text-wh{
+    color: var(--wh);
+}
+
+.text-ye {
+    color: var(--ye);
+}
+
+.logo{
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+.icona-custom{
+    margin-right: 10px;
+    color: var(--ye);
+}
+
+.padding-custom{
+    padding-left: 240px;;
+}
+
+.p-custom {
+    padding-left: 420px;
+}
+
+.font-custom {
+    font-size: x-small;
+}
+
+.header-custom{
+    height: 100vh;
+    background-image: url(./media/bg-1.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.arcade {
+    height: 65%;
+    width: 65%;
+}
+
+.article1-custom {
+    background-color: rgb(27, 21, 64);
+    height: 75vh;
+}
+
+.article2-custom {
+    background-color: rgb(20, 9, 37);
+    height: 75vh;
+}
+
+.article3-custom {
+    background-image: url(./media/bg-3.jpg);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.neon-custom {
+    width: 50%;
+    height: 370px;
+}
+
+.art-custom {
+    padding-top: 50px;
+    padding-right: 210px;
+}
+
+.formbg-custom {
+    background-image: url(./media/bg-2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    height: 630px;
+    width: 510px;
+    background-color: rgb(27, 21, 64);
+    border-radius: 2%;
+}
+
+.box-custom {
+    padding-top: 120px;
+}
+
+.form-custom {
+    background-color: transparent;
+    border-bottom: 1px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    width: 100%;
+    font-size: smaller;
+}
+
+.form-customtwo {
+    background-color: transparent;
+    border-bottom: 1px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    font-size: smaller;
+    width: 150px;
+}
+
+.form-customthree {
+    background-color: transparent;
+    border-bottom: 1px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    font-size: smaller;
+    width: 292px;
+}
+
+.icontwo-custom {
+    color: var(--wh);
+    background-color: var(--ye);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-c {
+    margin-left: 20px;
+}
+
+.neonlogo {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.insabato {
+    height: 50%;
+}
