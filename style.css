@@ -8,6 +8,7 @@
 :root{
     --wh: rgb(236, 236, 236);
     --ye: rgb(255, 237, 0);
+    --pur: purple;
 }
 
 .text-wh{
@@ -18,67 +19,40 @@
     color: var(--ye);
 }
 
-.logo{
-    height: 40px;
-    margin-bottom: 50px;
-}
-
-.icona-custom{
-    margin-right: 10px;
-    color: var(--ye);
-}
-
-.padding-custom{
-    padding-left: 240px;;
-}
-
-.p-custom {
-    padding-left: 420px;
-}
-
 .font-custom {
     font-size: x-small;
 }
 
+.bi-calendar4-week{
+    color: var(--ye);
+}
+
 .header-custom{
-    height: 100vh;
     background-image: url(./media/bg-1.jpg);
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.arcade {
-    height: 65%;
-    width: 65%;
+.hoverbtn:hover {
+    color: black;
 }
 
 .article1-custom {
     background-color: rgb(27, 21, 64);
-    height: 75vh;
 }
 
 .article2-custom {
     background-color: rgb(20, 9, 37);
-    height: 75vh;
+    padding: 100px 20px;
 }
 
 .article3-custom {
     background-image: url(./media/bg-3.jpg);
-    height: 75vh;
     background-position: center;
     background-size: cover;
 }
 
-.neon-custom {
-    width: 50%;
-    height: 370px;
-}
-
-.art-custom {
-    padding-top: 50px;
-    padding-right: 210px;
-}
 
 .formbg-custom {
     background-image: url(./media/bg-2.jpg);
@@ -88,48 +62,19 @@
 }
 
 .box {
-    height: 630px;
-    width: 510px;
+    padding: 70px 20px;
     background-color: rgb(27, 21, 64);
-    border-radius: 2%;
+    top: 80px;
 }
 
-.box-custom {
-    padding-top: 120px;
-}
 
 .form-custom {
     background-color: transparent;
-    border-bottom: 1px solid purple;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0%;
-    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--pur);
     font-size: smaller;
 }
 
-.form-customtwo {
-    background-color: transparent;
-    border-bottom: 1px solid purple;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0%;
-    font-size: smaller;
-    width: 150px;
-}
-
-.form-customthree {
-    background-color: transparent;
-    border-bottom: 1px solid purple;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0%;
-    font-size: smaller;
-    width: 292px;
-}
 
 .icontwo-custom {
     color: var(--wh);
@@ -142,17 +87,27 @@
     justify-content: center;
 }
 
-.margin-c {
-    margin-left: 20px;
+.btntwo {
+    background-color: var(--ye);
+    color: rgb(20, 9, 37);
 }
 
-.neonlogo {
-    height: 300px;
-    width: 300px;
-    margin-top: 50px;
-    margin-right: 50px;
+.btntwo:hover {
+    background-color: transparent;
+    color: var(--ye);
+    border: 1px solid var(--ye);
 }
 
-.insabato {
-    height: 50%;
+@media screen and (max-width: 600px) {
+    .article1-custom {
+        padding: 20px;
+    }
+
+    .box {
+        height: 80%;
+    }
+
+    .tondo {
+        margin-bottom: 30px; 
+    }
 }

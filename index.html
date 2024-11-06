@@ -22,20 +22,22 @@
     
     <header>
         <section class="container-fluid">
-            <div class="row header-custom align-items-center">
-                <div class="col-12 col-md-6 padding-custom">
-                    <img src="./media/aulab-logo_y.png" alt="logo-aulab" class="img-fluid logo">
+            <div class="row min-vh-100 justify-content-center align-items-center header-custom">
+                <div class="col-12 col-md-4">
+                    <img src="./media/aulab-logo_y.png" alt="logo-aulab" class="w-25 mb-4">
                     <p class="text-wh font-custom">WEBINAR GRATUITO</p>
-                    <h1 class="text-wh fw-semibold">Metti le mani al codice divertendoti</h1>
+                    <h1 class="text-wh h2 fw-bold">Metti le mani al <br> codice divertendoti</h1>
                     <p class="text-wh font-custom">Scopri come si sviluppa un videogame anni 2000</p>
-                    <time class="d-flex align-items-center">  
-                        <i class="bi bi-calendar4-week icona-custom"></i>
-                        <p class="text-wh fw-bolder fs-4 mb-0">25 Luglio 2023</p>
+                    <time class="d-flex my-2">  
+                        <i class="bi bi-calendar4-week h3 me-2"></i>
+                        <div>
+                            <h4 class="text-wh m-0 fw-semibold">25 Luglio 2023</h4>
+                            <p class="text-wh font-custom m-0">Ora 18:30</p>
+                        </div>
                     </time>
-                    <p class="text-wh font-custom mt-0 ms-4">Ora 18:30</p>
-                    <button type="button" class="btn btn-outline-warning mt-4 rounded-pill py-2 px-3"><span class="font-custom text-ye">ISCRIVITI GRATUITAMENTE</span></button>
+                    <button type="button" class="btn btn-outline-warning mt-4 rounded-pill py-3 px-4 font-custom text-ye">ISCRIVITI GRATUITAMENTE</button>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4">
                     <img src="./media/game arcade.png" alt="game-arcade" class="img-fluid arcade">
                 </div>
             </div>
@@ -44,56 +46,58 @@
 
     <!--Primo articolo-->
 
-    <article class="article1-custom">
-        <section class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-md-6 d-flex justify-content-end">
-                    <img src="./media/ico-gaming-def.png" alt="gaming-neon" class="img-fluid neon-custom">
+    <article class="container-fluid article1-custom">
+            <div class="row align-items-center justify-content-center py-5">
+                <div class="col-12 col-md-4 d-flex justify-content-center order-2 order-md-1">
+                    <img src="./media/ico-gaming-def.png" alt="gaming-neon" class="img-fluid w-75">
                 </div>
-                <div class="col-12 col-md-6 art-custom text-start">
-                    <h1 class="text-wh fs-4">
+                <div class="col-12 col-md-4  order-1 order-md-2">
+                    <h2 class="text-wh fs-4">
                         Impara le basi di HTMS, CSS, Javascript e PHP in modo semplice e divertente
-                    </h1>
+                    </h2>
                     <p class="text-wh font-custom">Se da un lato L'Ocse evidenzia per l'Italia un tasso di disoccupazione giovanile in aumento dal 28,7% pre-pandemia al 33,8% nel Gennaio del 2021, dall'altro l'Osservatorio delle Competenze Digitali stima che nel nostro paese c'è una richiesta di oltre 100.000 professionisti nel settore tech. Le aziende sono alla continua <strong>ricerca di personale</strong> in ambito IT per accellerare il processo di trasformazione digitale, ma non ci sono abbastanza canditati formati per soddisfare la domanda. Vieni a scoprire come imparare a programmare con il nostro webinar online gratuito mettendo le mani sul codice e programmando insieme a noi un vero esempio di retrogaming, un videogioco anni 2000.</p>
                 </div>
             </div>
-        </section>
     </article>
 
     <!--Form-->
 
-    <section class="container-fluid formbg-custom">
-        <div class="row justify-content-center box-custom">
-            <div class="col-4">
-                <form class="box pt-5 px-3">
-                    <h2 class="text-wh fs-4 fw-semibold">Iscriviti gratuitamente al webinar online</h2>
-                    <time class="d-flex align-items-start mt-4 mb-2">  
-                        <i class="bi bi-calendar-minus icontwo-custom"></i>
-                        <div>
-                            <p class="text-wh fs-4 mb-0 margin-c">25 Luglio 2023</p>
-                            <p class="text-wh font-custom mt-0 margin-c">Ora 18:30</p>
-                        </div>
-                    </time>
-                    <div class="mb-3">
-                        <input type="text" class="form-custom" id="formGroupExampleInput" placeholder="nome*">
+    <section class="container-fluid">
+        <div class="row justify-content-center py-5 formbg-custom">
+            <div class="box col-12 col-md-4 rounded-4 position-relative">
+                <h2 class="text-wh fs-4 fw-semibold">Iscriviti gratuitamente <br> al webinar online</h2>
+                <time class="d-flex align-items-start mt-4">  
+                    <i class="bi bi-calendar-minus h2 me-2 icontwo-custom"></i>
+                    <div>
+                        <p class="text-wh h4 m-0">25 Luglio 2023</p>
+                        <p class="text-wh font-custom m-0">Ora 18:30</p>
+                    </div>
+                </time>
+                <form class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-custom w-100 my-2" id="formGroupExampleInput" placeholder="nome*">
                       </div>
-                      <div class="mb-3">
-                        <input type="text" class="form-custom" id="formGroupExampleInput2" placeholder="cognome*">
+                      <div class="col-12">
+                        <input type="text" class="form-custom w-100 my-2" id="formGroupExampleInput2" placeholder="cognome*">
                       </div>
-                      <div class="mb-3">
-                        <input type="text" class="form-custom" id="formGroupExampleInput3" placeholder="email*">
+                      <div class="col-12">
+                        <input type="text" class="form-custom w-100 my-2" id="formGroupExampleInput3" placeholder="email*">
                       </div>
-                      <div class="d-inline">
-                        <input type="text" class="form-customtwo" id="formGroupExampleInput4" placeholder="Italia">
+                      <div class="col-4">
+                        <input type="text" class="form-custom w-100 my-2" id="formGroupExampleInput4" placeholder="Italia">
                       </div>
-                      <div class="d-inline ms-3">
-                        <input type="number" class="form-customthree" id="formGroupExampleInput5" placeholder="+39">
+                      <div class="col-8">
+                        <input type="number" class="form-custom w-100 my-2" id="formGroupExampleInput5" placeholder="+39">
                       </div>
-                      <div class="my-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label text-wh font-custom" for="exampleCheck1">Accetto termini e condizioni (GDPR) - Leggi qui*</label>
+                      <div class="col-12 mb-3">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label text-wh font-custom" for="exampleCheck1">Accetto termini e condizioni (GDPR) - Leggi qui*</label>
+                            </div>
                       </div>
-                      <button type="submit" class="btn btn-warning rounded-pill w-100"><span class="font-custom text-dark">ISCRIVITI GRATUITAMENTE</span></button>
+                      <div class="col-12">
+                        <button type="submit" class="col-12 btn btntwo rounded-pill font-custom w-100">ISCRIVITI GRATUITAMENTE</button>
+                      </div>
                 </form>
             </div>
         </div>
@@ -101,12 +105,12 @@
 
     <!--Secondo Articolo-->
 
-    <article class="article2-custom container-fluid">
-        <div class="row py-5">
-            <div class="col-12 col-md-6 d-flex justify-content-end align-items-end">
-                <img src="./media/logo-aulab-futur.png" alt="logoaulab-futuristico" class="img-fluid rounded-circle neonlogo">
+    <article class="container-fluid">
+        <div class="row justify-content-center article2-custom align-items-center">
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <img src="./media/logo-aulab-futur.png" alt="logoaulab-futuristico" class="img-fluid rounded-circle w-75 tondo">
             </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center align-items-start flex-column art-custom">
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-start flex-column">
                 <h4 class="text-ye">Chi è aulab</h4>
                 <p class="text-wh font-custom pe-5">Con i nostri corsi abbiamo aiutato più di <strong>10.000 studenti</strong> e studentesse a muovere i primi passi nel mondo digital & tech. Nel 2016 abbiamo lanciato l'Hackademy, la prima scuola di Coding in Italia con un metodo strutturato e registrato che forma in breve tempo le figure professionali più richieste dal mercato del lavoro.</p>
 
@@ -116,24 +120,28 @@
 
     <!--Terzo Articolo-->
 
-    <article class="article3-custom container-fluid">
-        <div class="row pt-5">
-            <div class="col-12 col-md-6 d-flex flex-column p-custom pe-4">
-                <p class="font-custom text-wh">Lo speaker</p>
-                <h4 class="text-ye">Marco Insabato</h4>
-                <p class="text-wh font-custom">Dopo aver completato l'Hackademy è entrato a far parte del team education di aulab, prima come tutor e poi come docente. Insegna principalmente <strong>Front-end</strong> ma è appassionato di tutto ciò che riguarda la programmazione. Si è specializzato in Javascript insegnandolo e lavorando su numerosi progetti di sviluppo.</p>
+    <article class="container-fluid">
+            <div class="row justify-content-center align-items-center py-5 article3-custom">
+                <div class="col-12 col-md-4 d-flex flex-column px-md-5 order-2 order-md-1 pe-3">
+                    <p class="font-custom text-wh">Lo speaker</p>
+                    <h4 class="text-ye">Marco Insabato</h4>
+                    <p class="text-wh font-custom">Dopo aver completato l'Hackademy è entrato a far parte del team education di aulab, prima come tutor e poi come docente. Insegna principalmente <strong>Front-end</strong> ma è appassionato di tutto ciò che riguarda la programmazione. Si è specializzato in Javascript insegnandolo e lavorando su numerosi progetti di sviluppo.</p>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center order-1 order-md-2 pb-3">
+                    <img src="./media/picture-marco-insabato-3.png" alt="MarcoInsabato" class="img-fluid w-75">
+                </div>
             </div>
-            <div class="col-12 col-md-6 ps-5">
-                <img src="./media/picture-marco-insabato-3.png" alt="MarcoInsabato" class="img-fluid insabato">
-            </div>
-        </div>
     </article>
 
 
     <!--Footer-->
 
-    <footer class="bg-dark">
-        <p class="text-wh font-custom text-center">2023 Aulab tutti i diritti riservati - P.IVA IT07647440721 - Privacy Policy - Codice etico</p>
+    <footer class="container-fluid">
+        <div class="row text-center text-wh bg-dark">
+            <div class="col-12">
+                <p class="font-custom m-0">2023 Aulab tutti i diritti riservati - P.IVA IT07647440721 - Privacy Policy - Codice etico</p>
+            </div>
+        </div>
     </footer>
 
 
